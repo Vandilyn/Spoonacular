@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainpage">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FoodRecipe"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search food...">
+    </androidx.appcompat.widget.SearchView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:entries="@array/tags"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center"></Spinner>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_random"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

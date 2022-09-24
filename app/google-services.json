@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744044118697",
+    "project_id": "sp0onaful",
+    "storage_bucket": "sp0onaful.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744044118697:android:96e30679b66ff687f69fb8",
+        "android_client_info": {
+          "package_name": "com.example.spoonacular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744044118697-p2tpcgppp57746n6m8sq7r600fgk6af0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-uyTlfLhvSoXZ0fX13dlZPS7aa_PHXm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744044118697-p2tpcgppp57746n6m8sq7r600fgk6af0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

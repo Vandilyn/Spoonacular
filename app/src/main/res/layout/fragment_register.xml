@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="example@email.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text"></EditText>
+
+    <EditText
+        android:id="@+id/passwordreg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailreg"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text">
+    </EditText>
+
+    <EditText
+        android:id="@+id/phonenumreg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="phone number"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordreg"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text">
+    </EditText>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn"
+        android:text="Register"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
